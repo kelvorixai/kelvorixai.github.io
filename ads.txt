@@ -9,4 +9,4 @@
 # your real publisher ID) — replace the commented example, don't just
 # uncomment it, the ID here is a placeholder and will not work as-is.
 #
-# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+google.com, pub-6051499531677717, DIRECT, f08c47fec0942fa0
