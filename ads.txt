@@ -1,12 +1,7 @@
-# ads.txt for RotaWage
+# ads.txt for the Kelvorix AI hub (kelvorixai.github.io)
 #
-# This file is required by Google AdSense to authorize this domain to show
-# its ads (prevents ad fraud via unauthorized resellers).
-#
-# TODO (Aziz, one-time, after creating the AdSense account):
-# In AdSense, go to Sites > [this site] > "Fix ads.txt issue" and copy the
-# exact line it gives you (it will look like the example below, but with
-# your real publisher ID) — replace the commented example, don't just
-# uncomment it, the ID here is a placeholder and will not work as-is.
+# This file authorizes Google AdSense to sell/serve ads on this domain
+# and every path under it (all eight sites live at kelvorixai.github.io/{site}/).
+# It must live at the true domain root to be picked up by ad-tech crawlers.
 #
 google.com, pub-6051499531677717, DIRECT, f08c47fec0942fa0
