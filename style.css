@@ -75,3 +75,24 @@ footer.site .wrap{ display:flex; justify-content:space-between; flex-wrap:wrap; 
 @media (max-width:480px){
   nav.site a{ margin-left:12px; }
 }
+
+
+/* --- Kelvorix Digital promo band (added 14 Sep 2026) --- */
+.kd{
+  margin:0 0 40px; padding:26px 26px 24px;
+  border:1px solid var(--line); border-left:3px solid var(--accent);
+  border-radius:6px; background:var(--paper-raised);
+}
+.kd .tag{ font-family:"IBM Plex Mono", monospace; font-size:10.5px; text-transform:uppercase;
+  letter-spacing:.06em; color:var(--accent-strong); }
+.kd h2{ font-size:clamp(1.35rem,3.6vw,1.7rem); margin:8px 0 10px; }
+.kd p{ color:var(--ink-soft); font-size:15px; margin:0 0 18px; max-width:62ch; }
+.kd .row{ display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+.kd .btn{
+  display:inline-block; padding:11px 20px; border-radius:5px;
+  background:var(--accent-strong); color:#fff; text-decoration:none;
+  font-size:14.5px; font-weight:600;
+}
+.kd .btn:hover{ background:var(--accent); }
+.kd .alt{ font-size:14px; color:var(--ink-soft); text-decoration:none; border-bottom:1px solid var(--line); }
+.kd .alt:hover{ color:var(--accent-strong); border-color:var(--accent); }
